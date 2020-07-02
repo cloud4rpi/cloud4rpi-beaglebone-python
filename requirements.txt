@@ -1,0 +1,4 @@
+Adafruit_DHT
+cloud4rpi
+pycodestyle
+pylint
