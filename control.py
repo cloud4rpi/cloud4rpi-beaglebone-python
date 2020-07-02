@@ -42,7 +42,7 @@ def get_hum():
 
 # Read from an sensor connected to GPIO
 def read_sensor_data():
-    temp, hum = Adafruit_DHT.read_retry(SENSOR, DHT_PIN)
+    hum, temp = Adafruit_DHT.read_retry(SENSOR, DHT_PIN)
     if temp is not None and hum is not None:
         dht_readings['temp'] = round(temp, 2)
         dht_readings['hum'] = round(hum, 2)
