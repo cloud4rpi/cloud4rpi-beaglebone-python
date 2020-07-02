@@ -1,4 +1,4 @@
-Adafruit_DHT
+Adafruit_DHT==1.4.0
 cloud4rpi
 pycodestyle
 pylint

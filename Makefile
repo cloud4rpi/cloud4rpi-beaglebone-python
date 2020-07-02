@@ -1,7 +1,7 @@
 .PHONY: init style lint
 
 init:
-	pip install --force-bbb --upgrade -r requirements.txt
+	pip install --upgrade -r requirements.txt
 
 style:
 	pycodestyle --show-source --show-pep8 .
