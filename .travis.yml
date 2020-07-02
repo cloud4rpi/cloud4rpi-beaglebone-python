@@ -12,3 +12,10 @@ matrix:
 install: make init
 
 script: make ci
+
+notifications:
+  slack:
+    on_success: change
+    on_failure: always
+    rooms:
+      secure: JIPGYKiuulbs9yQ2dXnxW4fcgDWP3fD92wR4p8V9tUToad6oo78yUKxhwK7ZVRcRhBOImUEvoSAZo0yIJXHO1+wGBFjXgCicLpXxA6BIkBxEbKy9WU6qaBWDDcbQicvog27oPqcJ6C7iTUTyWnk4xStufRqp/jZaPnvrSZGtRbOT8iGlzCUKYyzVkjrRlhlCx+zj0hLtPGRTAeOdpIu63F0Ei11/J/6XTMh28CPxFUE5zQl6f6FIKKuI1UGwJc/BfEsJ+br+NJD33F3tDYo8xfOybknRG6Tvy+n6ufuTDeVITxqNT5ZlHdNHT4V51KCnWf8sfgu2kKhr5Tml2NaYLBKc+8CM4OhzEM0tdD1mDR4D8F8Gaw76Pq62F9Amoej+81bapcVmVjwR5hW750S5jAMoRu0TsPUKCcikodC4IPnOIUazQyoAYFmNNnZIh9iQ7aYWovDZsK1uyNodrmju78DgFA4fq29XoCmD51ugpO9Danhb2x15RD9YnlHHfHYsynXaQebTh7jhKZai580KRzmj4sb7UWHND/j9AAGi/9QWn74ZeACpjghDtS6Qxqk7G3Aa2R0Vnz8ajzYce2KfMEl6+lx84GmwvAEvIP6C9Xohvn1zVqW9dyBmRvsqi+EfDPO52NPA9bR/3t8r7vuvzAG/500kRbmflu6LO/km8iw=
